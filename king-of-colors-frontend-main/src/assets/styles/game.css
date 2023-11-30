@@ -1,0 +1,224 @@
+.body_game {
+    margin:0;
+    padding: 1em;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  /*svg g {
+    fill: black;
+    fill-opacity: 0.6;
+  }
+  svg g polygon {
+    stroke: black;
+    stroke-width: 0.2;
+    transition: fill-opacity .2s;
+  }
+  svg path {
+    fill: none;
+    stroke: hsl(60, 20%, 70%);
+    stroke-width: 0.4em;
+    stroke-opacity: 0.3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }*/
+  /* Celeste: rgb(0, 170, 255) */
+  .hexagon-celeste {
+    fill: rgb(0, 170, 255);
+  }
+
+  /* Morado: rgb(204, 0, 170) */
+  .hexagon-morado {
+    fill: rgb(204, 0, 170);
+  }
+
+  /* Naranjo: rgb(255, 170, 0) */
+  .hexagon-naranjo {
+    fill: rgb(255, 170, 0);
+  }
+
+  /* Blanco: rgb(255, 255, 255) */
+  .hexagon-blanco {
+    fill: rgb(255, 255, 255);
+  }
+
+  .cols {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin-top: 90px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .round {
+    text-align: center;
+    background-color: white;
+    width: 705px;
+    height: 20px;
+    border: 5px solid rgb(171, 112, 176);
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  /*.board {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    
+    width: 705px;
+    height: 700px;
+  }*/
+
+  .texto_hexagono {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.2px;
+    color: black;
+    font-weight: lighter;
+    text-anchor: start; 
+  }
+  
+  .tokens {
+    background-color: white;
+    vertical-align: top;
+    text-align: center;
+    width: 255px;
+    height: 350px;
+    border: 5px solid rgb(194, 69, 69);
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+  
+  .move {
+    background-color: white;
+    text-align: center;
+    width: 255px;
+    height: 285px;
+    border: 5px solid rgb(194, 69, 69);
+    padding: 15px;
+    margin: auto;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-bottom: 85px;
+  }
+  
+  .time {
+    background-color: white;
+    text-align: center;
+    width: 255px;
+    height: 20px;
+    border: 5px solid rgb(57, 180, 224);
+    padding: 15px;
+    margin: auto;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .turn {
+    background-color: white;
+    text-align: center;
+    width: 255px;
+    height: 300px;
+    border: 5px solid rgb(57, 180, 224);
+    padding: 15px;
+    margin: auto;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .event {
+    background-color: white;
+    text-align: center;
+    width: 255px;
+    height: 180px;
+    border: 5px solid rgb(228, 195, 31);
+    padding: 15px;
+    margin: auto;
+    margin-left: 60px;
+    margin-bottom: 160px;
+  }
+  
+  .dot {
+    padding: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(194, 69, 69);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .squares {
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: white;
+    padding: auto;
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #cccccc;
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .troopslay {
+    padding-left: 50px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+  }
+  
+  .numbertroop {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .troop {
+    border: 2px solid black;
+    background-color: rgb(194, 69, 69);
+    padding: auto;
+    height: 55px;
+    width: 25px;
+    margin-right: 10px;
+  }
+
+.selected-hex-info {
+  color: black
+}
+
+.rectangulo-tropas-verde {
+  width: "10px";
+  height: "20px";
+  color: green;
+}
+
+.rectangulo-tropas-blanco {
+  width: "10px";
+  height: "20px";
+  color: blue
+}
+
+.rectangulo-tropas-rojo {
+  width: "10px";
+  height: "20px";
+  color: red;
+}

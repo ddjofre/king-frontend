@@ -1,0 +1,80 @@
+.texto_login {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #725226;
+  font-weight: 600;
+}
+
+.Login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #e4d1b5;
+    margin-top: 110px;
+    text-align: center;
+
+  }
+  
+  .Login form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;    
+  }
+
+  .Login form input[type="text"],
+  .Login form input[type="email"],
+  .Login form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #864088;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .Login form input[type="submit"] {
+    background-color: #725226;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .Login form input[type="submit"]:hover {
+    background-color: #cb938b;
+    color: #49310f;
+  }
+
+  .error {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ff4d4d; /* red */
+    border-radius: 5px;
+    color: #ff4d4d; /* red */
+    background-color: #ffe6e6; /* light red */
+    text-align: center;
+  }
+
+  .successMsg {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #5cff4d; /* green */
+    border-radius: 5px;
+    color: #2aff86; /* green */
+    background-color: #e9ffe6; /* light green */
+    text-align: center;
+  }

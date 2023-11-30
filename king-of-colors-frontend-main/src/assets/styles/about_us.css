@@ -1,0 +1,84 @@
+.titulo_about_us {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #725226;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.subtitulo_about_us {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #725226;
+    font-weight: 550;
+    text-align: left;
+    display: flex;
+}
+
+.texto_about_us {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #9e691f;
+    font-weight: 400;
+    text-align: justify;
+    display: flex;
+}
+
+.subtitulo_about_us,
+.texto_about_us {
+  margin: 0; 
+}
+
+.img_about_us {
+    height: 230px;
+    width: 230px;
+    display: flex;
+}
+
+.grilla_about_us {
+    display: grid;
+    grid-template-columns: 25% 72%;
+    gap: 3%;
+    align-items: center;
+}
+
+.grilla_about_us > :nth-child(n) {
+    flex-direction: column;
+}
+
+.grilla_about_us > :nth-child(odd) {
+    margin-left: 15%;
+  }
+
+.grilla_about_us > :nth-child(even) {
+    margin-right: 4%;
+  }
+
+@media screen and (max-width: 1020px) {
+    .grilla_about_us {
+        grid-template-columns: 1fr; 
+        justify-items: center;
+        grid-gap: 0;
+    }
+
+    .grilla_about_us > :nth-child(even) {
+        margin-left: 4%;
+    }
+
+    .grilla_about_us > :nth-child(odd) {
+        margin-left: 0%;
+    }
+
+    .subtitulo_about_us {
+        text-align: center;
+    }  
+}
